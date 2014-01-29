@@ -1,0 +1,11 @@
+ИНСТРУКЦИЯ ПО РАБОТЕ С GIT
+
+1. Установить git с командной строкой bash
+2. запустить git. Выбрать папку для будущего приложения через cd d:/web/
+3. git config --global user.name 'your name' - задать логин
+4. git config --global user.email danshur@yandex.ru - указат e-mail
+5. git status - проверка состояния репозитория
+6. git clone - склонировать весь проект с github
+7. git add filename.full - зафиксировать изменения конкретного файла
+8. git commit -m 'description' - полная готовность к заливке на github
+9. git push https://username:password@github.com/UserName/projectname.git
